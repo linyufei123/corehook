@@ -10,6 +10,11 @@ import {
   imageToUS800,
 } from './amazonImg'
 
+import {
+  useUpdateEffect,
+  useWinSize,
+} from './reacthooks'
+
 export {
   formatV,
   formatRV,
@@ -18,4 +23,7 @@ export {
   imageToUS400,
   imageToUS600,
   imageToUS800,
+
+  useUpdateEffect,
+  useWinSize,
 }
