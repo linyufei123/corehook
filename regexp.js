@@ -9,7 +9,7 @@ export const RegexThousand = /\B(?=(\d{3})+(?!\d))/g;
   正则校验 - 手机号
  */
 export const regMobile = /^((\+|00)86)?1\d{10}$/;
-export const mobileCheck = (str: string) => {
+export const mobileCheck = (str) => {
   if (!str) return false;
   return regMobile.test(str);
 };
